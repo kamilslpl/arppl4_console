@@ -9,11 +9,14 @@ public class MainPetlaDoWhile {
         System.out.println("Podaj liczbe pierwsza:");
         int liczba = scanner.nextInt();
 
+        int i = 0;
+
         do {
             System.out.println("Hello World");
 
-            liczba--;
 
-        }while (liczba>1);
+            i++;
+
+        }while (i < liczba);
     }
 }
