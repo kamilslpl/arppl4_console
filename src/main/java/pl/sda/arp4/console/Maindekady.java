@@ -2,17 +2,21 @@ package pl.sda.arp4.console;
 
 import java.util.Scanner;
 
-public class Main {
+public class Maindekady {
     public static void main(String[] args) {
+
         System.out.println("rozpoczynam działanie");
         //wejscie programu
         Scanner scanner = new Scanner(System.in);
-        // Pytamy o imie:
-        System.out.println("Podaj swoje immie:");
+        // Pytamy o wiek:
+        System.out.println("Podaj swoj wiek:");
 
         //wczytanie z konsoli
 
-        String zmiennaImie = scanner.next();
-        System.out.println("Witaj " + zmiennaImie + "!");
+        int zmiennawiek = scanner.nextInt();
+        System.out.println("Zyjesz juz " + zmiennawiek/10 + " dekad");
+
+
+
     }
 }
